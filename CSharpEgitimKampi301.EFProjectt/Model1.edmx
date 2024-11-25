@@ -141,7 +141,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="EgitimKampiEfTravelDbEntities1" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="EgitimKampiEfTravelDbEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Admin" EntityType="Self.Admin" />
           <EntitySet Name="Customer" EntityType="Self.Customer" />
           <EntitySet Name="Guide" EntityType="Self.Guide" />
@@ -157,7 +157,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="EgitimKampiEfTravelDbModelStoreContainer" CdmEntityContainer="EgitimKampiEfTravelDbEntities1">
+        <EntityContainerMapping StorageEntityContainer="EgitimKampiEfTravelDbModelStoreContainer" CdmEntityContainer="EgitimKampiEfTravelDbEntities">
           <EntitySetMapping Name="Admin">
             <EntityTypeMapping TypeName="EgitimKampiEfTravelDbModel.Admin">
               <MappingFragment StoreEntitySet="Admin">

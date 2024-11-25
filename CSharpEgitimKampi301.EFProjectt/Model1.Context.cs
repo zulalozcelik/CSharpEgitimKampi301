@@ -7,16 +7,16 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CSharpEgitimKampi301.EFProject
+namespace CSharpEgitimKampi301.EFProjectt
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class EgitimKampiEfTravelDbEntities1 : DbContext
+    public partial class EgitimKampiEfTravelDbEntities : DbContext
     {
-        public EgitimKampiEfTravelDbEntities1()
-            : base("name=EgitimKampiEfTravelDbEntities1")
+        public EgitimKampiEfTravelDbEntities()
+            : base("name=EgitimKampiEfTravelDbEntities")
         {
         }
     
