@@ -63,10 +63,6 @@
     <Compile Include="EntityFramework\EfCustomerDal.cs" />
     <Compile Include="EntityFramework\EfOrderDal.cs" />
     <Compile Include="EntityFramework\EfProductDal.cs" />
-    <Compile Include="Migrations\202411111211086_mig1.cs" />
-    <Compile Include="Migrations\202411111211086_mig1.Designer.cs">
-      <DependentUpon>202411111211086_mig1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\GenericRepository.cs" />
@@ -80,12 +76,6 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup />
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\202411111211086_mig1.resx">
-      <DependentUpon>202411111211086_mig1.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

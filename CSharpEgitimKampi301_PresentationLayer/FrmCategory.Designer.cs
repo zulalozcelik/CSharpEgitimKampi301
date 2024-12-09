@@ -68,6 +68,7 @@
             this.btnList.TabIndex = 2;
             this.btnList.Text = "Listele ";
             this.btnList.UseVisualStyleBackColor = true;
+            this.btnList.Click += new System.EventHandler(this.btnList_Click);
             // 
             // dataGridView1
             // 
@@ -162,7 +163,7 @@
             this.btnGetById.Text = "ID\'ye Göre Getir";
             this.btnGetById.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // FrmCategory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -180,7 +181,7 @@
             this.Controls.Add(this.btnList);
             this.Controls.Add(this.txtCategoryId);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "FrmCategory";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
