@@ -12,6 +12,12 @@ namespace CSharpEgitimKampi301_BusinessLayer.Concrete
     public class CategoryManager : ICategoryService
     {
         private readonly ICategoyDal _categoryDal;
+
+        public CategoryManager(ICategoyDal categoryDal)
+        {
+            _categoryDal = categoryDal;
+        }
+
         public void TDelete(Category entity)
         {
             _categoryDal.Delete(entity);
